@@ -3,13 +3,13 @@ b = input()
 c = input()
 
 vertebrado = {
-  "ave": {"carnivoro": "aguia", "onivoro": "pombo"};
+  "ave": {"carnivoro": "aguia", "onivoro": "pombo"}, #vírgula no final de cada dicionário para separação entre outro dicionário.
   "mamifero": {"onivoro": "homem", "herbivoro": "vaca"}
 }
 
 invertebrado = {
-  "inseto": {"hematofago": "pulga", "onivoro": "lagarta"};
-  "alinideo": {"hematofago": "sanguessuga", "onivoro": "minhoca"};
+  "inseto": {"hematofago": "pulga", "onivoro": "lagarta"},
+  "alinideo": {"hematofago": "sanguessuga", "onivoro": "minhoca"},
 }
 
 if a == "vertebrado":
