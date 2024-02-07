@@ -48,7 +48,7 @@ while True:
         print(f"Saldo atual: R${saldo:.2f} | Numero de Saques Realizados hoje: {numero_saques}")
 
     elif opcao == "x": 
-        print("\nSaindo ... Obrigado por usar nossos serviços!")
+        print("Saindo ... Obrigado por usar nossos serviços!")
         break
     else:
         print("\nOpção inválida, por favor selecione novamente a opção desejada:")
