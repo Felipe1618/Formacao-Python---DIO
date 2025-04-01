@@ -1,4 +1,12 @@
-#Tela de login (opcao_login):
+# class Cliente(cpf, nome_cliente, senha, n_conta):
+
+# class Novo_Usuario(cpf, nome_cliente, senha):
+
+# class Operacoes(saldo, extrato, saque, deposito):
+
+# def listar_contas(n_conta):
+
+# Tela de login (opcao_login):
 #Entrar com dados da conta [1] / cadastrar novo cliente [2]:
 #  se opcao_login = 1:
 #    CPF(cliente)

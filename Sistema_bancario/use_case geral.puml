@@ -1,0 +1,38 @@
+@startuml
+left to right direction
+actor Titular as titular
+actor Usuário as usuario
+
+rectangle "Sistema Bancário" {
+ rectangle "Login" {
+  usecase "Criar conta" as criarConta
+  usecase "Fazer Login" as login
+  usecase "Sair" as sair
+ }
+ rectangle "Menu" {
+  usecase "Depósito" as deposito
+  usecase "Saque" as saque
+  usecase "Consulta Extratos" as extratos
+  usecase "opções de usuários" as opcoesUsuarios
+  usecase "Opções da minha conta" as opcoesTitular
+  usecase "Sair da conta" as sairConta
+ }
+}
+titular --> criarConta
+titular --> login
+titular --> sair
+titular --> deposito
+titular --> saque
+titular --> extratos
+titular --> opcoesUsuarios
+titular --> opcoesTitular
+titular --> sairConta
+
+usuario --> login
+usuario --> sair
+usuario --> deposito
+usuario --> saque
+usuario --> extratos
+usuario --> opcoesUsuarios
+usuario --> sairConta
+@enduml

@@ -18,7 +18,7 @@ class Bicicleta: #classe
 
     def trocar_marcha(self):
         print("Trocando de marcha...")
-        self = self
+        #self = self 
 
         # def _trocar_marcha(n_marcha):
         #     if n_marcha > self.marcha:

@@ -20,7 +20,7 @@ class Ave(Animal):
 
 class FalarMixin():
     def falar(self):
-        return "Miuaaaau!"
+        return "Falei!"
 
 
 class Cachorro(Mamifero):
@@ -51,3 +51,10 @@ print(ornitorrinco)
 tony = Gato(nome="Tony", n_patas=4, cor_pelo="cinza")
 print(tony)
 print(tony.falar())
+
+class Foo: 
+    def hello(self): 
+        print(self.__class__.__name__.lower()) 
+
+    class Bar(Foo): 
+        def hello(self): return super().hello() bar = Bar() bar.hello()
